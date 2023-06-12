@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ytmusicdownloader"
+version = "0.1.0"
+description = ""
+authors = ["sergey_panin <sergey.panin.2019@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytube = "^15.0.0"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
